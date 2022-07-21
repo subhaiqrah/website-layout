@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive- website</title>
+    <style>
+    body{
+        max-width: 800px;
+        margin: 0px auto;
+        border: 1px solid plum;
+
+        }
+    h2{
+        font-size: 5vw;
+    }
+    .tiger img{
+        width: 100%;
+    }
+    .container-two{
+        display: flex;
+    }
+    .container-two .split{
+        width: 50%;
+    }
+    .split img{
+        width: 100%;
+    }
+    .food{
+        border: 2px solid indianred;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+    .food img{
+        width: 100%;
+    }
+
+    @media screen and (max-width:576px) {
+        .container-two{
+            flex-direction: column;
+        }
+        .container-two .split{
+        width: 100%;
+        }
+        .container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        
+    }
+    @media  screen and (min-width:577px) and (max-width:700px) {
+        .container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+    }
+   
+
+    </style>
+</head>
+<body>
+    <section>
+        <h2>
+            my responsive website layout 
+       </h2>
+    </section>
+    <section class="tiger">
+        <h3>Tiger</h3>
+        <img src="images/tiger.png" alt="">
+    </section>
+    <section>
+        <div class="container-two">
+            <div class="split">
+                <img src="images/food1.png" alt="">
+            </div>
+            <div class="split">
+                <img src="images/food.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2> Multi column</h2>
+        <div class="container">
+            <div class="food">
+                <img src="images/food.png" alt="">
+                <h2>item-1</h2>
+                <h3>price-1001</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, pariatur?</p>
+                <button>order</button>
+            </div>
+            <div class="food">
+                <img src="images/food.png" alt="">
+                <h2>item-2</h2>
+                <h3>price-1002</h3>
+                <p>Nemo consequuntur atque laborum tenetur nisi nulla minima dolores tempore!</p>
+                <button>order</button>
+            </div>
+            <div class="food">
+                <img src="images/food.png" alt="">
+                <h2>item-3</h2>
+                <h3>price-1003</h3>
+                <p>Ipsam neque minus animi, in iure ut ex ad ipsum!</p>
+                <button>order</button>
+            </div>
+            <div class="food">
+                <img src="images/food.png" alt="">
+                <h2>item-4</h2>
+                <h3>price-1004</h3>
+                <p>Quos deleniti doloremque placeat eos blanditiis omnis quasi at eum?</p>
+                <button>order</button>
+            </div>
+            <div class="food">
+                <img src="images/food.png" alt="">
+                <h2>item-5</h2>
+                <h3>price-1005</h3>
+                <p>Hic fugit recusandae ut nobis. Officia cum animi magnam quasi.</p>
+                <button>order</button>
+            </div>
+            <div class="food">
+                <img src="images/food.png" alt="">
+                <h2>item-6</h2>
+                <h3>price-1006</h3>
+                <p>Sit impedit odit esse enim vero amet doloremque assumenda ea!</p>
+                <button>order</button>
+            </div>
+            <div class="food">
+                <img src="images/food.png" alt="">
+                <h2>item-7</h2>
+                <h3>price-1007</h3>
+                <p>Debitis repellendus quis praesentium nihil dicta ipsum ullam officia provident!</p>
+                <button>order</button>
+            </div>
+            <div class="food">
+                <img src="images/food.png" alt="">
+                <h2>item-8</h2>
+                <h3>price-1008</h3>
+                <p>Quasi soluta corrupti, numquam minus obcaecati molestiae minima odit voluptatibus?</p>
+                <button>order</button>
+            </div>
+            <div class="food">
+                <img src="images/food.png" alt="">
+                <h2>item-9</h2>
+                <h3>price-1009</h3>
+                <p>Amet nulla quo quae doloremque inventore ab cupiditate accusamus nemo.</p>
+                <button>order</button>
+            </div>
+            <div class="food">
+                <img src="images/food.png" alt="">
+                <h2>item-10</h2>
+                <h3>price-10010</h3>
+                <p>Voluptatem explicabo laudantium dicta doloribus sint dolor delectus omnis eveniet!</p>
+                <button>order</button>
+            </div>
+            <div class="food">
+                <img src="images/food.png" alt="">
+                <h2>item-11</h2>
+                <h3>price-10011</h3>
+                <p>Quo corporis placeat architecto eveniet, consequuntur quibusdam. Ratione, autem obcaecati?</p>
+                <button>order</button>
+            </div>
+            <div class="food">
+                <img src="images/food.png" alt="">
+                <h2>item-12</h2>
+                <h3>price-10012</h3>
+                <p>Deserunt at ipsa rerum animi placeat omnis itaque eligendi? Aliquid.</p>
+                <button>order</button>
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>

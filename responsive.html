@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive </title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .food{
+            border: 2px solid peru;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        .food img{
+            width: 75%;
+        }
+        /*small device */
+        @media screen and (max-width:576px) {
+            .food{
+                background-color: rgb(241, 167, 118);
+            }
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+            /*medium device*/
+        @media screen and (min-width:577px) and (max-width:992px) {
+            .food{
+                background-color: darksalmon;
+            }
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/food.png" alt="">
+            <h2>item-1</h2>
+            <h3>price-100$</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, modi!</p>
+            <button>order now!</button>
+        </div>
+        <div class="food">
+            <img src="images/food.png" alt="">
+            <h2>item-2</h2>
+            <h3>price-100$</h3>
+            <p>Esse voluptatibus doloremque sapiente saepe veniam harum id voluptates perferendis.</p>
+            <button>order now!</button>
+        </div>
+        <div class="food">
+            <img src="images/food.png" alt="">
+            <h2>item-3</h2>
+            <h3>price-100$</h3>
+            <p>Libero laborum porro dolore ducimus vitae illo distinctio quas nihil!</p>
+            <button>order now!</button>
+        </div>
+        <div class="food">
+            <img src="images/food.png" alt="">
+            <h2>item-4</h2>
+            <h3>price-100$</h3>
+            <p>Dignissimos rerum sed quia at cum reprehenderit. Labore, obcaecati quibusdam.</p>
+            <button>order now!</button>
+        </div>
+        <div class="food">
+            <img src="images/food.png" alt="">
+            <h2>item-5</h2>
+            <h3>price-100$</h3>
+            <p>Nihil itaque natus est dicta optio facilis error ipsa soluta?</p>
+            <button>order now!</button>
+        </div>
+        <div class="food">
+            <img src="images/food.png" alt="">
+            <h2>item-6</h2>
+            <h3>price-100$</h3>
+            <p>Molestiae maxime enim, laudantium temporibus suscipit tempora magnam? Vel, sequi!</p>
+            <button>order now!</button>
+        </div>
+        <div class="food">
+            <img src="images/food.png" alt="">
+            <h2>item-7</h2>
+            <h3>price-100$</h3>
+            <p>Fugiat dicta exercitationem ullam veritatis aut porro officiis quaerat aliquid.</p>
+            <button>order now!</button>
+        </div>
+        <div class="food">
+            <img src="images/food.png" alt="">
+            <h2>item-8</h2>
+            <h3>price-100$</h3>
+            <p>Placeat hic quod eveniet, natus expedita ipsum enim nemo repudiandae.</p>
+            <button>order now!</button>
+        </div>
+        <div class="food">
+            <img src="images/food.png" alt="">
+            <h2>item-9</h2>
+            <h3>price-100$</h3>
+            <p>Voluptatibus ab maxime asperiores culpa, laboriosam praesentium maiores eaque optio!</p>
+            <button>order now!</button>
+        </div>
+        <div class="food">
+            <img src="images/food.png" alt="">
+            <h2>item-10</h2>
+            <h3>price-100$</h3>
+            <p>Amet voluptatibus nihil aliquid dicta ipsa fugit fuga non architecto.</p>
+            <button>order now!</button>
+        </div>
+        <div class="food">
+            <img src="images/food.png" alt="">
+            <h2>item-11</h2>
+            <h3>price-100$</h3>
+            <p>Blanditiis quae impedit temporibus qui esse mollitia in molestiae ad.</p>
+            <button>order now!</button>
+        </div>
+        <div class="food">
+            <img src="images/food.png" alt="">
+            <h2>item-12</h2>
+            <h3>price-100$</h3>
+            <p>Accusamus dolorem, repellat dolores eius aliquid unde aspernatur dignissimos deserunt!</p>
+            <button>order now!</button>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

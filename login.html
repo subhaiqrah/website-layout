@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login </title>
+    <script src="https://kit.fontawesome.com/bea847df6e.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+
+        }
+        .login-container{
+            display: flex;
+            justify-content: center;
+           margin-top: 60px;
+            border: 0px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            
+        }
+        .login-form input{
+            margin-top: 10px;
+            
+        }
+        #submit{
+            border: 0;
+            color: whitesmoke;
+            font-weight: 600px;
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            
+        <span>
+            <a href="">home</a>
+            <a href="">dashboard</a>
+            <a href="">repository</a>
+        </span>
+        <span>
+            <a href="">inventory<i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+        </span>
+        </nav>
+    </header>
+    <section class="login-container">
+        <form class="login-form"> 
+            <h3>
+                please login
+            </h3>
+            <input type="email" name="" id="" placeholder="write email address" required>
+            <input type="password" name="" id="" placeholder="password" required>
+            <input id="submit" type="submit" value="login">
+        </form>
+        
+    </section>
+</body>
+</html>
